@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a2b90b3452.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Website</title>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1><span style="color: #ff004f;">O</span>luwalonimi.</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Software Engineer</p>
+        <h2>Hi, I'm <span>Omolayo</span> <br> Oluwalonimi from Nigeria.</h2>
+      </div>
+    </div>
+  </div>
+
+<!-- About me -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="8c96a407-1b83-438e-b1c4-a8ac195dddf0.jfif" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+          <p>
+            about.me is a personal web hosting service co-founded by Ryan Freitas, Tony Conrad and Tim Young in October 2009. 
+            The site offers registered users a simple platform from which to link multiple
+            online identities, relevant external sites, and popular social networking websites such as Facebook, Flickr, and
+          </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Design Web/Appinterfaces</li>
+            <li><span>Web Development</span><br>Web App Development</li>
+            <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>April 2021- September 2021</span><br>Aero</li>
+            <li><span>April 2021- September 2021</span><br>Aero</li>
+            <li><span>April 2021- September 2021</span><br>Aero</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>September 2017- Febuary 2023</span><br>Bells University of technology</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ---------------------sercices-------------------------------- -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <P>ncvkbkjhbn z,xjhcj z jx cmvj mj nj znv nzbjnbvjzmfdghjgfhdgsffdfhgjkhgjfhdg</P>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-sharp fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <P>ncvkbkjhbn z,xjhcj z jx cmvj mj nj znv nzbjnbvjzmfdghjgfhdgsffdfhgjkhgjfhdg</P>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <P>ncvkbkjhbn z,xjhcj z jx cmvj mj nj znv nzbjnbvjzmfdghjgfhdgsffdfhgjkhgjfhdg</P>
+        <a href="#">Learn more</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- -----------------portfolio of my work--------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/pic04.jpg" alt="">
+        <div class="layer">
+          <h3>Social Media</h3>
+          <p>ncvkbkjhbn z,xjhcj z jx cmvj mj nj znv nzbjnbvjzmfdghjgfhdgsffdfhgjkhgjfhdg</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/pic02.jpg" alt="">
+        <div class="layer">
+          <h3>Social Media</h3>
+          <p>ncvkbkjhbn z,xjhcj z jx cmvj mj nj znv nzbjnbvjzmfdghjgfhdgsffdfhgjkhgjfhdg</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/pic03.jpg" alt="">
+        <div class="layer">
+          <h3>Social Media</h3>
+          <p>ncvkbkjhbn z,xjhcj z jx cmvj mj nj znv nzbjnbvjzmfdghjgfhdgsffdfhgjkhgjfhdg</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- -------------------contact------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i> lonimibest@hmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i> (+234) 704-927-1834</p>
+        <div class="socials-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="" download class="btn btn2">Download CV</a>
+      </div>
+      <!-- <div class="contact-right">
+      </div> -->
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ lonimi. Made with <i class="fa-solid fa-heart"></i> by the Best</p>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
